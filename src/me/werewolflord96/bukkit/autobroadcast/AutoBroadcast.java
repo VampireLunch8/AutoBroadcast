@@ -19,7 +19,7 @@ public class AutoBroadcast extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		// Also Displays Version
-		this.getLogger().info(pluginPrefix + "Enabled.");
+		this.getLogger().info(pluginPrefix + "Enabled. Version " + this.getDescription().getVersion() + " Loaded.");
 		
 		// Generates Folder
 		if (!pluginFolder.exists()) {
